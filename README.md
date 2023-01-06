@@ -1,7 +1,7 @@
 <!--
  * @Author: HaoJie
  * @Date: 2023-01-06 17:07:53
- * @LastEditTime: 2023-01-06 17:35:44
+ * @LastEditTime: 2023-01-06 17:39:23
  * @LastEditors: HaoJie
  * @FilePath: \node-swagger-server\readme.md
 -->
@@ -10,7 +10,7 @@
 
 > node 版本 v16.17.0
 
-该项目使用 swagger-ui-express 和 swagger-jsdoc 根据接口的注释来生成 Swagger 文档。
+该项目使用 swagger-ui-express 和 swagger-jsdoc 根据接口的注释来生成 Swagger 文档，使用 Webpack 打包生成含有 Swagger 的 dist 文件。
 
 ## 相关文档
 
@@ -32,6 +32,9 @@ npm run build
 
 # 运行打包后的文件（需要先运行打包命令）
 npm run server
+
+# 接口文档路径
+# localhost:3000/api-docs
 ```
 
 ## 目录结构
